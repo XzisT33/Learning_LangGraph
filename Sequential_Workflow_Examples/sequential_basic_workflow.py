@@ -13,6 +13,10 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
+"""
+The usecase is pretty simple. We are just asking a random question to the LLM and getting the output of it. The focus is on creating the sequential workflow via LangGraph.
+"""
+
 
 #Define the State for the Graph
 class BasicUsecase(TypedDict):
