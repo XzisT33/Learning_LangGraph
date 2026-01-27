@@ -1,5 +1,6 @@
 langchain
-langgraph
 langchain_huggingface
+langgraph
 dotenv
 typing
+

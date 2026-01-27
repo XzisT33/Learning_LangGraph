@@ -81,8 +81,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-.env
-.env.*
+
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -138,6 +137,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
 .envrc
 .venv
 env/
