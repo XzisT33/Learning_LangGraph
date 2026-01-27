@@ -1,0 +1,1 @@
+print("Kya haal hai")
