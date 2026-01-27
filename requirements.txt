@@ -2,3 +2,4 @@ langchain
 langgraph
 langchain_huggingface
 dotenv
+typing
