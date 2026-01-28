@@ -57,7 +57,7 @@ def family_fact_with_rating(state: PersonState):
 
 def random_fact_with_rating(state: PersonState):
     template = PromptTemplate(
-    template='Give me a random & surprising fact for the given scientist mentioned & give me a rating based on the sanity of that person in its lifetime. \n {person} \n {format_instruction}',
+    template='Give me a random & surprising fact for the given scientist mentioned & give me a rating based on the sanity of that person in its later life. \n {person} \n {format_instruction}',
     input_variables=["person"],
     partial_variables={'format_instruction':parser.get_format_instructions()}
     )
@@ -101,7 +101,7 @@ graph.add_edge('best_invention_fact_with_rating', END)
 
 workflow = graph.compile()
 
-initial_state = {'person': "Nikola Tesla"}
+initial_state = {'person': "Ignaz Semmelweis"}
 
 final_state = workflow.invoke(initial_state)
 print(final_state)
