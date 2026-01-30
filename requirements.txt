@@ -3,4 +3,4 @@ langchain_huggingface
 langgraph
 dotenv
 typing
-
+streamlit
