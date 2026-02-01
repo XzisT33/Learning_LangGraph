@@ -137,6 +137,7 @@ celerybeat.pid
 
 # Chatbot Database
 chatbot.db
+chatbot.*
 
 # Environments
 .env
