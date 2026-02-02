@@ -4,3 +4,5 @@ langgraph
 dotenv
 typing
 streamlit
+duckduckgo-search
+wikipedia
