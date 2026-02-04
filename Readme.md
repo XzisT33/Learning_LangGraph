@@ -33,7 +33,7 @@ The project is designed to serve as:
 
 
 ## Repository Structure
-
+```
 .
 │   .env
 │   .gitignore
@@ -68,7 +68,7 @@ The project is designed to serve as:
     └── Streamlit_DB_with_Tools_Chatbot
         ├── db_with_tools_integrated_backend.py
         └── db_with_tools_integrated_frontend.py
-
+```
 
 
 ## Architecture
